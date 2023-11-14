@@ -1,5 +1,5 @@
-#!usr/bin/node
-// print a rectangle with variable x
+#!/usr/bin/node
+// print a rectangle with X.
 
 module.exports = class Rectangle {
   constructor (w, h) {
