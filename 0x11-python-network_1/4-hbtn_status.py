@@ -3,7 +3,7 @@
 """
 if __name__ == '__main__':
     import requests
-    r = requests.get("https://intranet.hbtn.io/status")
+    r = requests.get("https://alx-intranet.hbtn.io/status")
     typ = type(r.text)
     con = r.text
     print("Body response:\n\t- type: {}\n\t- content: {}".format(typ, con))
