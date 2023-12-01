@@ -12,3 +12,4 @@ if __name__ == "__main__":
     print("Number of results: {}".format(len(results)))
     for elem in results:
         print(elem["name"])
+
